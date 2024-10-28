@@ -1,0 +1,26 @@
+.card {
+    width: 150px;
+    height: 90px;
+    background-color: rgb(250, 240, 230);
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 0.5px solid gray
+}
+.card:hover {
+    
+}
+*, 
+*:before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body:
